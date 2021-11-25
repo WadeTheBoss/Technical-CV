@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family = Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins''Times New Roman', Times, serif;
+}
+body
+{
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 10000px;
+  min-height: 1000px;
+  background: rgba(255,255,255,0.2);
+  display: grid;
+  grid-template-columns: 1fr 50fr;
+  box-shadow: 0 35px 55px rgba(255,255,255,0.2);
+
+
+
+}
+.Pictures
+{
+    width: 500px;
+    height: 500px;
+
+}
+.container .left_Side
+{
+  position: relative;
+  background: darkred;
+  padding: 40px;
+  color: #fff;
+
+}
+.PersonalInfoText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px c=solid rgba(255,255,255,0.2);
+
+}
+.PersonalInfoText .imgBox
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.PersonalInfoText .imgBox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.PersonalInfoText h2
+{
+    columns: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: white;
+}
+.PersonalInfoText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: white;
+
+}
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+   color:#fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+
+
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactInfo ul li span .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+
+}
+.contactInfo ul li span
+{
+    color: white;
+    font-weight: 300;
+}
+.container .right_Side
+{
+  position: relative;
+  background-color: darkgoldenrod;
+  padding: 40px;
+  
+}
